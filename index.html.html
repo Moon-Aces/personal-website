@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="overlay">
+      <div class="container">
+        <img src="logo2.jpeg" alt="Niña Francisco" class="profile-picture">
+        <h1>Niña Francisco</h1>
+        <p> WIS | IT | Fourth Year</p>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="flippable-section">
+    <div class="section-inner">
+      <div class="section-front">
+        <h2>About Me</h2>
+        <img src="Nina.jpg.jpg" alt="About Me Picture" class="about-picture">
+        <p>Hello! I'm Niña M. Francisco currently at 4th Year College taking Bachelor of Science in Information Technology at Westmead International School. I am a member of our organization called Unified Network Infotech eXperts 
+          in a position of Auditor under the College of Information Technology and Computer Studies. Originally we are from Oriental Mindoro but my parents are working here so we stayed here in Batangas City for many years.
+        </p>
+          <h5>Sex: Female</h5>
+          <h5>Date of Birth: August 25, 2000</h5>
+          <h5>Place of Birth: Socorro, Oriental Mindoro</h5>
+          <h5>Civil Status: Single</h5>
+          <h5>Citizenship: Filipino</h5>
+          <h5>Religion: Catholic</h5>
+      </div>
+      
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-inner">
+            <div class="project-front">
+              <h3>Credentials</h3>
+            </div>
+            <div class="project-back">
+              <ul>
+                <li>Member of Girls Scout of the Philippines from 2009-2012</li> 
+                <li>Softball Player/Varsity from 2009-2012</li>
+                <li>Achiever from 2015-2018</li>
+                <li>Reserve Officer Training Corps (MS1 & MS2) 2021-2022</li>
+                <li>Dean Lister 2021-2023</li>
+                <li>Member of Unified Network Infotech eXperts 2023-present</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-inner">
+            <div class="project-front">
+              <h3>Seminars</h3>
+            </div>
+            <div class="project-back">
+              <ul>
+                <li>iSITE - INTEGRATED SOCIETY OF INFORMATION TECHNOLOGY ENTHUSIASTS</li>
+                <li>BITCON 2024 - NAVIGATING THE FUTURE OF TECHNOLOGY: INTEGRATION, INNOVATION, AND SECURITY</li>
+                <li>14th Annual Business Forum</li>
+                <li>HKNL - HACKIN' KA NA LANG</li>
+                <li>Y4iT RESEARCH SUMMIT</li>
+                <li>JARVIS - JUMPSTARTING AI TO REDEFINE VIRTUAL INTELLIGENCE IN IOT SYSTEM</li>
+                <li>DATABIZ - EQUIPPING TOMORROW'S INNOVATION WITH DATA SCIENCE, AI, AND BUSINESS ANALYTICS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-inner">
+            <div class="project-front">
+              <h3>Projects</h3>
+            </div>
+            <div class="project-back">
+              <ul>
+                <li>UNCLE JOHN'S STOCKS MONITORING AND EXPIRATION DATE</li>
+                <li>FLOWER INVENTORY MANAGEMENT SYSTEM</li>
+                <li>ATTENDANCE MONITORING AND PAYROLL SYSTEM</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="contact" class="flippable-section">
+    <div class="section-inner">
+      <div class="section-front">
+        <h2>Contact</h2>
+        <p>Email: ninafranciscoc210166@gmail.com</p>
+        <p>Number: 09634075375</p>
+        <p>Address: Sorosoro Batangas City</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2024 Niña Francisco, All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.project-card').forEach((card) => {
+      card.addEventListener('click', () => {
+        card.classList.toggle('flipped');
+      });
+    });
+  </script>
+  
+  
+</body>
+</html>
